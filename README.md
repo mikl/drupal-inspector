@@ -1,15 +1,15 @@
-Ember Inspector [![Build Status](https://secure.travis-ci.org/emberjs/ember-inspector.png?branch=master)](http://travis-ci.org/emberjs/ember-inspector)
-===============
+Drupal Inspector
+================
 
-Adds an Ember tab to Chrome or Firefox Developer Tools that allows you to inspect
-Ember objects in your application.
+Adds an Drupal tab to Chrome or Firefox Developer Tools that allows you to inspect
+Drupal templates on the current page.
 
 Installation
 ------------
 
 ### Chrome
 
-Install the extension from the [Chrome Web Store](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi).
+Install the extension from the [Chrome Web Store](https://chrome.google.com/webstore/detail/drupal-inspector/TODO)
 
 OR:
 
@@ -26,7 +26,7 @@ OR:
 
 ### Firefox
 
-Install the [Firefox addon](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/).
+Install the [Firefox addon](https://addons.mozilla.org/en-US/firefox/addon/drupal-inspector/).
 
 OR:
 
@@ -34,7 +34,7 @@ OR:
 - cd into the repo directory
 - run `npm install`
 - run `npm install -g grunt-cli`
-- run `grunt build build_xpi` to build the `dist_firefox` directory, download Firefox Addon SDK and build Firefox Addon XPI to 'tmp/xpi/ember-inspector.xpi'
+- run `grunt build build_xpi` to build the `dist_firefox` directory, download Firefox Addon SDK and build Firefox Addon XPI to 'tmp/xpi/drupal-inspector.xpi'
   or `grunt run_xpi` to run the Firefox Addon in a temporary profile (or use `FIREFOX_BIN` and `FIREFOX_PROFILE` to customize Firefox profile directory and Firefox binary used to run the extension)
 
 ### Opera
@@ -61,7 +61,3 @@ Run `npm install` to install the required modules.
 - `grunt run_xpi` to run the Firefox Addon XPI on a temporary new profile (or use `FIREFOX_BIN` and `FIREFOX_PROFILE` to customize Firefox profile directory and Firefox binary used to run the extension)
 - `grunt server` To start the test server at `localhost:9292`
 - `grunt watch` To watch the files and re-build when anything changes (useful during development).
-
-
-[s3-builds]: http://ember-extension.s3-website-us-east-1.amazonaws.com/
-[latest-build]: http://ember-extension.s3-website-us-east-1.amazonaws.com/ember-extension-latest.zip

@@ -1,9 +1,9 @@
 {
     "preferences": [],
-    "name": "ember-inspector",
-    "version": "1.2.0",
-    "fullName": "Ember Inspector",
-    "id": "ember-inspector@emberjs.com",
-    "description": "Tool for debugging Ember applications.",
+    "name": "drupal-inspector",
+    "version": "0.0.0",
+    "fullName": "Drupal Inspector",
+    "id": "drupal-inspector@hoegh.co",
+    "description": "Tool for debugging Drupal 8 templates.",
     "permissions": {"private-browsing": true}
 }

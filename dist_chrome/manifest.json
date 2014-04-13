@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "Ember Inspector",
-  "description": "Tool for debugging Ember applications.",
-  "version": "1.2.0",
+  "name": "Drupal Inspector",
+  "description": "Tool for debugging Drupal 8 templates.",
+  "version": "0.0.0",
 
   "icons": {
     "16":  "images/icon16.png",
@@ -29,7 +29,7 @@
       "19": "images/icon19.png",
       "38": "images/icon38.png"
     },
-    "default_title": "This webpage is running Ember.js"
+    "default_title": "This webpage is running Drupal."
   },
   "web_accessible_resources": [
     "in-page-script.js"
